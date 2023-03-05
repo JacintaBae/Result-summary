@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.general {
+  width: 600px;
+  height: 375px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 80px;
+}
+.firstbox {
+  width: 300px;
+  border: 1px solid hsl(252, 100%, 67%);
+  padding: 35px;
+  text-align: center;
+  color: white;
+  opacity: 1;
+  font-family: "Hanken Grotesk", sans-serif;
+  border-radius: 15px;
+  background-color: hsl(241, 81%, 64%);
+}
+
+.num {
+  font-family: "Hanken Grotesk", sans-serif;
+  padding: 25px;
+  font-weight: 600;
+  width: 150px;
+  height: 150px;
+  border: hsla(256, 72%, 46%, 1);
+  border-radius: 50%;
+  margin: auto;
+  background-color: hsla(256, 72%, 46%, 1);
+  opacity: 0.8;
+}
+.firstbox .grt {
+  font-size: 25px;
+}
+.firstbox .sco {
+  color: rgb(209, 207, 207);
+}
+.firstbox .of{
+color:rgb(209, 207, 207) ;}
+
+.firstbox .rst {
+  color: rgb(209, 207, 207);
+  font-size: 18px;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.num .big {
+  font-size: 50px;
+}
+.secbox {
+  border: 1px solid hsl(0, 0%, 100%);
+  width: 300px;
+  padding: 17px;
+  border-radius: 15px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 3px 3px 3px rgb(245, 242, 242);
+}
+
+.secbox div {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  padding: 8px;
+  word-spacing: px;
+  margin-bottom: 14px;
+  font-family: "Hanken Grotesk", sans-serif;
+  border-radius: 7px;
+}
+.secbox .summary {
+  font-weight: 800;
+  font-size: 20px;
+  color: hsl(224, 30%, 27%);
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.secbox .grd {
+  padding: 5px;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.secbox div {
+  border: 1px solid hsl(0, 0%, 100%);
+}
+button {
+  width: 250px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 500;
+  height: 50px;
+  position: relative;
+  border: none;
+  left: 10px;
+  margin-top: 28px;
+  border-radius: 50px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(224, 30%, 27%);
+
+
+}
+
+button:active{
+  cursor: pointer;
+ background-color: hsl(241, 81%, 64%) ;
+}
+.secbox .reaction {
+  color: hsl(0, 100%, 67%);
+  background-color: hsl(0, 52%, 96%);
+}
+.secbox .memory {
+  color: hsl(39, 100%, 56%);
+  background-color: hsl(38, 100%, 96%);
+}
+.secbox .verbal {
+  color: hsl(166, 100%, 37%);
+  background-color: hsl(222, 100%, 96%);
+}
+.secbox .visuals {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: hsl(234, 85%, 45%);
+  background-color: hsl(221, 100%, 96%);
+}
+.secbox .memory .mem {
+  margin-right: 70px;
+}
+.secbox .reaction .rea {
+  margin-right: 70px;
+}
+.secbox .verbal .ver {
+  margin-right: 70px;
+}
+.secbox .visuals .vis {
+  margin-right: 70px;
+}
+@media only screen and (max-width:768px){
+  .general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height:100% ;
+    margin-top: 0%;
+  }
+  .firstbox{
+    width: 100%;
+   border-top-right-radius: 0px;
+   border-top-left-radius: 0px;
+    
+  }
+  .num{
+    height: 130px;
+    width: 130px;
+padding: 30px;
+  }
+  
+    .firstbox .grt {
+      font-size: 20px;
+  }
+  
+}
+
+
+
+
+
